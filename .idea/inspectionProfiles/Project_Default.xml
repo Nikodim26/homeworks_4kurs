@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="black" />
+          <option value="click" />
+          <option value="flake8" />
+          <option value="isort" />
+          <option value="librt" />
+          <option value="mccabe" />
+          <option value="mypy" />
+          <option value="mypy_extensions" />
+          <option value="pathspec" />
+          <option value="pycodestyle" />
+          <option value="pyflakes" />
+          <option value="pytokens" />
+          <option value="typing_extensions" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
