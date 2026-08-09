@@ -1,14 +1,14 @@
 from src.product import Product
 
 
-class Category():
+class Category:
     name: str
     description: str
     products: list[Product]
     category_count = 0
     product_count: int
 
-    def __init__(self, name, description, products):
+    def __init__(self, name:str, description:str, products:list):
         self.name = name
         self.description = description
         self.products = products
