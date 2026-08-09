@@ -1,4 +1,3 @@
-
 def test_product(fixture_for_product) -> None:
     assert fixture_for_product.name == "Iphone 15"
     assert fixture_for_product.description == "512GB, Gray space"
