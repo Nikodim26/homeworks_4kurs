@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="вроде все" />
+    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +70,7 @@
       <recent name="P:\Учеба питон\коды\4 курс\homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_load_json.test_reading_file">
+  <component name="RunManager" selected="Python.main">
     <configuration name="load_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="ENV_FILES" value="" />
@@ -164,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Python tests for tests.test_load_json.test_reading_file" />
         <item itemvalue="Python tests.Python tests for tests.test_category.test_category" />
         <item itemvalue="Python tests.Python tests for tests.test_product.test_product" />
         <item itemvalue="Python.load_json" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
