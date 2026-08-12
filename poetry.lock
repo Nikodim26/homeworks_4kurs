@@ -892,6 +892,18 @@ optional = ["typing-extensions (>=4)"]
 re2 = ["google-re2 (>=1.1)"]
 
 [[package]]
+name = "pip"
+version = "26.2.1"
+description = "The PyPA recommended tool for installing Python packages."
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "pip-26.2.1-py3-none-any.whl", hash = "sha256:71138adf1f4ca900cdb7d289c21b7494329f2332b6d85f0e1c42108c0384ed3e"},
+    {file = "pip-26.2.1.tar.gz", hash = "sha256:f6ad667e89a1fe78046c8f13232b247200f5258d7828f3f7883d660878e0813f"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "4.11.1"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
@@ -1165,4 +1177,4 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.14"
-content-hash = "5cc8d24a9b94212e29bd6414b969f4bdb468a3532194e651fa35ee7c45727b58"
+content-hash = "32e795d2d0a4c3f0cadc9386af4e2818a44054cfda8f9507916b22611aa87449"
