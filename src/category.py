@@ -9,13 +9,12 @@ class Category:
         self.name = name
         self.description = description
         self.__products = products
-        self.product_count = len(products)
         Category.category_count += 1
         Category.product_count = len(products)
 
     def add_product(self, product: Product) -> None:
         self.__products.append(product)
-        self.product_count += 1
+        Category.product_count += 1
 
     @property
     def products(self) -> str:

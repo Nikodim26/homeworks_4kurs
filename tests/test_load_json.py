@@ -1,3 +1,4 @@
+from src.category import Category
 from src.load_json import reading_file
 
 
@@ -7,3 +8,4 @@ def test_reading_file() -> None:
         "Смартфоны, как средство не только коммуникации, но и получение" " дополнительных функций для удобства жизни"
     )
     assert reading_file()[0].product_count == 3
+    assert type(reading_file()[0]) is Category
