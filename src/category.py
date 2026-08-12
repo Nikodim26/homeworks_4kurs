@@ -11,7 +11,7 @@ class Category:
         self.__products = products
         self.product_count = len(products)
         Category.category_count += 1
-        Category.product_count = Product.product_count
+        Category.product_count = len(products)
 
     def add_product(self, product: Product) -> None:
         self.__products.append(product)
