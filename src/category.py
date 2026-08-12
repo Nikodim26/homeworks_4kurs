@@ -2,8 +2,6 @@ from src.product import Product
 
 
 class Category:
-    name: str = ""
-    description: str = ""
     product_count: int = 0
     category_count: int = 0
 
