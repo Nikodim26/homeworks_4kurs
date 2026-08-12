@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="скопировал main по ссылке">
+    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="1,2,3 задачи">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786515019783</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1,2 задачи">
+      <option name="closed" value="true" />
+      <created>1786519209690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786519209690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,17 +240,8 @@
     <MESSAGE value="без тестов" />
     <MESSAGE value="тест Category" />
     <MESSAGE value="скопировал main по ссылке" />
-    <option name="LAST_COMMIT_MESSAGE" value="скопировал main по ссылке" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="1,2,3 задачи" />
+    <MESSAGE value="1,2,3 задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="1,2,3 задачи" />
   </component>
 </project>
