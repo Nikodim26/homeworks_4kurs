@@ -16,10 +16,3 @@ def reading_file() -> list:
     return [Category(category_dt["name"], category_dt["description"],
                      [Product(**product_dt) for product_dt in category_dt["products"]])
             for category_dt in data]
-
-
-categories = reading_file()
-print(categories)
-print(Category.category_count)
-print(Product.product_count)
-
