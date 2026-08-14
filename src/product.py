@@ -20,3 +20,5 @@ class Product:
     def price(self, new_price: float) -> None:
         if new_price > 0:
             self.__price = new_price
+
+

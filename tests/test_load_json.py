@@ -1,11 +1,11 @@
 from src.category import Category
-from src.load_json import reading_file
 
 
-def test_reading_file() -> None:
-    assert reading_file()[0].name == "Смартфоны"
-    assert reading_file()[0].description == (
-        "Смартфоны, как средство не только коммуникации, но и получение" " дополнительных функций для удобства жизни"
-    )
-    assert reading_file()[0].product_count == 3
-    assert type(reading_file()[0]) is Category
+def test_reading_file(fixture_for_load_json) -> None:
+    assert len(fixture_for_load_json) == 2
+    assert type(fixture_for_load_json[0]) is Category
+    assert fixture_for_load_json[0].name == "Смартфоны"
+    assert fixture_for_load_json[1].name == "Телевизоры"
+    assert fixture_for_load_json[0].products == ('Samsung Galaxy C23 Ultra, 180000 руб. Остаток: 5 шт.\n'
+                                                 'Iphone 15, 210000 руб. Остаток: 8 шт.\n'
+                                                 'Xiaomi Redmi Note 11, 31000 руб. Остаток: 14 шт.\n')

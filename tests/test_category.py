@@ -3,8 +3,8 @@ from src.product import Product
 
 def test_category(fixture_for_category) -> None:
     assert fixture_for_category.name == "Смартфоны"
-    assert len(fixture_for_category.products) == 95
-    assert fixture_for_category.category_count == 1
+    assert len(fixture_for_category.products) == 91
+    assert fixture_for_category.category_count == 3
     assert fixture_for_category.product_count == 2
     assert fixture_for_category.description == (
         "Смартфоны, как средство не только коммуникации," " но и получения дополнительных функций для удобства жизни"

@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 from src.category import Category
+from src.product import Product
 
 
 def reading_file() -> list:
@@ -9,12 +10,16 @@ def reading_file() -> list:
     try:
         with open(json_path, "r", encoding="utf-8") as file:
             data = json.load(file)
-
-        categories = []
-        for dt in data:
-            categories.append(Category(dt["name"], dt["description"], dt["products"]))
-
     except Exception:
         return []
 
-    return categories
+    return [Category(category_dt["name"], category_dt["description"],
+                     [Product(**product_dt) for product_dt in category_dt["products"]])
+            for category_dt in data]
+
+
+categories = reading_file()
+print(categories)
+print(Category.category_count)
+print(Product.product_count)
+
