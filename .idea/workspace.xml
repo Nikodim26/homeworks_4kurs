@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="новый main для 15.1 Магические методы">
+    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="1 задача">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786700326766</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1 задача">
+      <option name="closed" value="true" />
+      <created>1786704640759</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1786704640759</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +333,7 @@
     <MESSAGE value="подправил тесты" />
     <MESSAGE value="подправил readme.md и category.py" />
     <MESSAGE value="новый main для 15.1 Магические методы" />
-    <option name="LAST_COMMIT_MESSAGE" value="новый main для 15.1 Магические методы" />
+    <MESSAGE value="1 задача" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 задача" />
   </component>
 </project>

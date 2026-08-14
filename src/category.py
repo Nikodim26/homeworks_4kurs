@@ -26,3 +26,4 @@ class Category:
     def __str__(self) -> str:
         number = sum([i.quantity for i in self.__products])
         return f"{__class__.__name__}, количество продуктов: {number} шт."
+
