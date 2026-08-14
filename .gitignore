@@ -34,6 +34,7 @@ nosetests.xml
 coverage.xml
 *.cover
 *.py.cover
+*.lcov
 .hypothesis/
 .pytest_cache/
 cover/
@@ -54,9 +55,10 @@ profile_default/
 ipython_config.py
 .pdm-python
 .pdm-build/
-.pixi
+.pixi/*
+!.pixi/config.toml
 __pypackages__/
-celerybeat-schedule
+celerybeat-schedule*
 celerybeat.pid
 *.rdb
 *.aof
@@ -84,6 +86,7 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
+.idea/
 .abstra/
 tempCodeRunnerFile.py
 .ruff_cache/
@@ -92,4 +95,3 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 .streamlit/secrets.toml
-.idea/

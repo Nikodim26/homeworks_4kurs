@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="2 задача" />
+    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="2 задача">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +64,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "task",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "E:/Учеба питон/коды/4 курс/homeworks",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -71,7 +74,7 @@
       <recent name="P:\Учеба питон\коды\4 курс\homeworks" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.load_json">
     <configuration name="load_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="ENV_FILES" value="" />
