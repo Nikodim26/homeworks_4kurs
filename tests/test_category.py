@@ -12,4 +12,4 @@ def test_category(fixture_for_category) -> None:
     fixture_for_category.add_product(product3)
     assert fixture_for_category.product_count == 3
     assert type(fixture_for_category.products) is str
-    assert str(fixture_for_category) == 'Category, количество продуктов: 27 шт.'
+    assert str(fixture_for_category) == "Category, количество продуктов: 27 шт."

@@ -29,6 +29,8 @@ def fixture_for_product_dict() -> dict:
         "price": 180000.0,
         "quantity": 5,
     }
+
+
 @pytest.fixture
 def fixture_for_load_json() -> list:
     return reading_file()

@@ -13,6 +13,11 @@ def reading_file() -> list:
     except Exception:
         return []
 
-    return [Category(category_dt["name"], category_dt["description"],
-                     [Product(**product_dt) for product_dt in category_dt["products"]])
-            for category_dt in data]
+    return [
+        Category(
+            category_dt["name"],
+            category_dt["description"],
+            [Product(**product_dt) for product_dt in category_dt["products"]],
+        )
+        for category_dt in data
+    ]
