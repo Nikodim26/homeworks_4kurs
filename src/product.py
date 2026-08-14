@@ -21,4 +21,6 @@ class Product:
         if new_price > 0:
             self.__price = new_price
 
+    def __str__(self) -> str:
+        return f"{self.name}, {self.price} руб. Остаток: {self.quantity} шт."
 

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="подправил readme.md и category.py">
+    <list default="true" id="075befd5-605b-4d8e-bcb5-3eccc32ad697" name="Changes" comment="новый main для 15.1 Магические методы">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,13 +58,14 @@
     "Python tests.Python tests for tests.test_load_json.test_reading_file.executor": "Run",
     "Python tests.Python tests for tests.test_product.test_product.executor": "Run",
     "Python tests.Python tests in test_load_json.py.executor": "Run",
+    "Python.category.executor": "Run",
     "Python.load_json.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "task",
     "last_opened_file_path": "E:/Учеба питон/коды/4 курс/homeworks",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -71,7 +75,7 @@
       <recent name="P:\Учеба питон\коды\4 курс\homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_product.test_product">
+  <component name="RunManager">
     <configuration name="load_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homeworks" />
       <option name="ENV_FILES" value="" />
@@ -287,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786700085882</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="новый main для 15.1 Магические методы">
+      <option name="closed" value="true" />
+      <created>1786700326766</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1786700326766</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +326,7 @@
     <MESSAGE value="подправил products" />
     <MESSAGE value="подправил тесты" />
     <MESSAGE value="подправил readme.md и category.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="подправил readme.md и category.py" />
+    <MESSAGE value="новый main для 15.1 Магические методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="новый main для 15.1 Магические методы" />
   </component>
 </project>
