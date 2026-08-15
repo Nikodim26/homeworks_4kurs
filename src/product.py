@@ -25,4 +25,4 @@ class Product:
         return f"{self.name}, {self.price} руб. Остаток: {self.quantity} шт."
 
     def __add__(self, other: Product) -> float:
-        return self.price*self.quantity + other.price*other.quantity
+        return self.price * self.quantity + other.price * other.quantity

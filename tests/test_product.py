@@ -8,3 +8,5 @@ def test_product(fixture_for_product, fixture_for_product_dict) -> None:
     assert product.price == 180000.0
     product.price = -1000
     assert product.price == 180000.0
+    assert str(fixture_for_product) == "Iphone 15, 210000.0 руб. Остаток: 8 шт."
+    assert fixture_for_product + fixture_for_product == 3360000.0
