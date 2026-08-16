@@ -1,7 +1,7 @@
-from src.BaseProduct import BaseProduct
+from src.BaseProduct import BaseProduct, MixinLog
 
 
-class Product(BaseProduct):
+class Product(BaseProduct, MixinLog):
     product_count = 0
 
     def __init__(self, name: str, description: str, price: float, quantity: int) -> None:
@@ -9,6 +9,7 @@ class Product(BaseProduct):
         self.description = description
         self.__price = price
         self.quantity = quantity
+        super().__init__()
         Product.product_count += 1
 
     @classmethod
