@@ -1,4 +1,7 @@
-from abc import ABC, abstractmethod
+from abc import ABC
+from abc import abstractmethod
+
+from src.product import Product
 
 
 class BaseProduct(ABC):
@@ -8,13 +11,14 @@ class BaseProduct(ABC):
         pass
 
     @abstractmethod
-    def __add__(self, other) -> float:
+    def __add__(self, other: Product) -> float:
         pass
+
 
 class MixinLog:
 
-    def __init__(self):
+    def __init__(self) -> None:
         print(self)
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return str(self)
