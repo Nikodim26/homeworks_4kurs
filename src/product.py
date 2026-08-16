@@ -5,7 +5,10 @@ class Product(BaseProduct):
     product_count = 0
 
     def __init__(self, name: str, description: str, price: float, quantity: int) -> None:
-        super().__init__(name, description, price, quantity)
+        self.name = name
+        self.description = description
+        self.__price = price
+        self.quantity = quantity
         Product.product_count += 1
 
     @classmethod
