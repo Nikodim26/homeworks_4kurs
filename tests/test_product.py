@@ -1,3 +1,5 @@
+import pytest
+
 from src.product import Product
 
 
@@ -36,9 +38,12 @@ def test_lawngrass(fixture_for_lawngrass) -> None:
     assert fixture_for_lawngrass.germination_period == "7 дней"
     assert fixture_for_lawngrass.color == "Зеленый"
     assert fixture_for_lawngrass + fixture_for_lawngrass == 20000.0
+    with pytest.raises(TypeError):
+        fixture_for_lawngrass+"fixture_for_lawngrass"
 
 
 def test_product_mixin_log(capsys) -> None:
     Product("Samsung Galaxy S23 Ultra", "256GB, Серый цвет, 200MP камера", 180000.0, 5)
     message = capsys.readouterr()
     assert message.out.strip() == "Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт."
+
