@@ -1,3 +1,6 @@
+from src.product import Product
+
+
 def test_product(fixture_for_product, fixture_for_product_dict) -> None:
     assert fixture_for_product.name == "Iphone 15"
     assert fixture_for_product.description == "512GB, Gray space"
@@ -33,3 +36,9 @@ def test_lawngrass(fixture_for_lawngrass) -> None:
     assert fixture_for_lawngrass.germination_period == "7 дней"
     assert fixture_for_lawngrass.color == "Зеленый"
     assert fixture_for_lawngrass + fixture_for_lawngrass == 20000.0
+
+
+def test_mixinLog(capsys) -> None:
+    Product("Samsung Galaxy S23 Ultra", "256GB, Серый цвет, 200MP камера", 180000.0, 5)
+    message = capsys.readouterr()
+    assert message.out.strip()=='Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.'
