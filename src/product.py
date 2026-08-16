@@ -1,5 +1,5 @@
 from src.BaseProduct import BaseProduct
-from src.BaseProduct import MixinLog
+from src.MixinLog import MixinLog
 
 
 class Product(BaseProduct, MixinLog):
