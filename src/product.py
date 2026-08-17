@@ -14,7 +14,7 @@ class Product(BaseProduct, MixinLog):
         Product.product_count += 1
 
     @classmethod
-    def new_product(cls, dict_product: dict) -> Product:
+    def new_product(cls, dict_product: dict) -> "Product":
         return Product(**dict_product)
 
     @property
