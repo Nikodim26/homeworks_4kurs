@@ -9,9 +9,12 @@ class Product(BaseProduct, MixinLog):
         self.name = name
         self.description = description
         self.__price = price
-        self.quantity = quantity
-        super().__init__()
-        Product.product_count += 1
+        if quantity == 0:
+            raise ValueError('Товар с нулевым количеством не может быть добавлен')
+        else:
+            self.quantity = quantity
+            super().__init__()
+            Product.product_count += 1
 
     @classmethod
     def new_product(cls, dict_product: dict) -> "Product":
