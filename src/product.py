@@ -9,7 +9,7 @@ class Product:
         Product.product_count += 1
 
     @classmethod
-    def new_product(cls, dict_product: dict) -> Product:
+    def new_product(cls, dict_product: dict) -> 'Product':
         return Product(**dict_product)
 
     @property
@@ -25,4 +25,7 @@ class Product:
         return f"{self.name}, {self.price} руб. Остаток: {self.quantity} шт."
 
     def __add__(self, other: Product) -> float:
-        return self.price * self.quantity + other.price * other.quantity
+        if type(self) is type(other):
+            return self.price * self.quantity + other.price * other.quantity
+        else:
+            raise TypeError

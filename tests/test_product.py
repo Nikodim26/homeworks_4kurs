@@ -10,3 +10,26 @@ def test_product(fixture_for_product, fixture_for_product_dict) -> None:
     assert product.price == 180000.0
     assert str(fixture_for_product) == "Iphone 15, 210000.0 руб. Остаток: 8 шт."
     assert fixture_for_product + fixture_for_product == 3360000.0
+
+
+def test_smartphone(fixture_for_smartphone, fixture_for_lawngrass) -> None:
+    assert fixture_for_smartphone.name == "Samsung Galaxy S23 Ultra"
+    assert fixture_for_smartphone.description == "256GB, Серый цвет, 200MP камера"
+    assert fixture_for_smartphone.price == 180000.0
+    assert fixture_for_smartphone.quantity == 5
+    assert fixture_for_smartphone.efficiency == 95.5
+    assert fixture_for_smartphone.model == "S23 Ultra"
+    assert fixture_for_smartphone.memory == 256
+    assert fixture_for_smartphone.color == "Серый"
+    assert fixture_for_smartphone + fixture_for_smartphone == 1800000.0
+
+
+def test_lawngrass(fixture_for_lawngrass) -> None:
+    assert fixture_for_lawngrass.name == "Газонная трава"
+    assert fixture_for_lawngrass.description == "Элитная трава для газона"
+    assert fixture_for_lawngrass.price == 500.0
+    assert fixture_for_lawngrass.quantity == 20
+    assert fixture_for_lawngrass.country == "Россия"
+    assert fixture_for_lawngrass.germination_period == "7 дней"
+    assert fixture_for_lawngrass.color == "Зеленый"
+    assert fixture_for_lawngrass + fixture_for_lawngrass == 20000.0
