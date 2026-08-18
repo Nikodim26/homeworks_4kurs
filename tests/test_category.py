@@ -1,3 +1,4 @@
+from src.category import Category
 from src.product import Product
 
 
@@ -19,3 +20,12 @@ def test_add_product(fixture_for_lawngrass, fixture_for_category) -> None:
     fixture_for_category.add_product(fixture_for_lawngrass)
     assert fixture_for_category.product_count == 3
     assert str(fixture_for_category) == "Category, количество продуктов: 33 шт."
+
+
+def test_middle_price(fixture_for_category) -> None:
+    assert fixture_for_category.middle_price() == 195000.0
+
+
+def test_category_with_zero_product_list() -> None:
+    category_empty = Category("Пустая категория", "Категория без продуктов", [])
+    assert category_empty.middle_price() == 0
